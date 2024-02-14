@@ -67,7 +67,7 @@ class Material {
   }
 }
 
-const mainHtml = document.getElementById("main");
+const mainHtml = document.getElementById("readings");
 
 const data = [
   {
