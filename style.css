@@ -8,9 +8,10 @@ main{
     max-width: 640px;
     text-justify: auto;
   }
-  text-align: justify;
 }
-
+p {
+    text-align: justify;
+}
 .monthSection {
   margin: 2rem 0;
   padding: 1rem;
