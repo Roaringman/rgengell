@@ -1,1 +1,48 @@
+main{
+  @media (min-width: 640px) { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    max-width: 640px;
+    text-justify: auto;
+  }
+}
 
+.monthSection {
+  margin: 2rem 0;
+  padding: 1rem;
+  border-bottom: solid;
+ 
+}
+.monthArticle{
+  padding: 1rem;
+   &:nth-child(2n-1) {
+      background-color: white !important;
+    }
+    &:nth-child(2n-2) {
+      background-color: #d3d3d3 !important;
+    }
+}
+
+.monthText {
+  text-decoration-line: underline
+}
+.genreText {
+  display: inline;
+  padding: 0.3rem;
+  border-radius: 5px;
+  color: white;
+  font-size: 0.9rem;
+  background-color: #878787;
+}
+.descriptionArticle{
+  font-size: 1.1rem;
+  font-style: italic;
+  font: bold;
+}
+.authorText{
+  font-size: 0.9rem;
+  color: ;
+}
